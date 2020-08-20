@@ -70,6 +70,7 @@ $(document).ready(function($) {
 	};
 	fullHeight();
 
+	
 	var burgerMenu = function() {
 
 		$('.js-mypage-nav-toggle').on('click', function(event) {
@@ -88,6 +89,7 @@ $(document).ready(function($) {
 	};
 	burgerMenu();
 	
+
 	var counter = function() {
 		
 		$('#section-counter').waypoint( function( direction ) {

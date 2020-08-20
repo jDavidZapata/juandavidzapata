@@ -46,13 +46,13 @@
         <div class="mypage-table-cell js-fullheight">
           <div class="row no-gutters">
             <div class="col-md-12 text-center">
-              <h1 class="mb-4"><a href="{{ url_for('home') }}" class="logo">JD Zapata</a></h1>
+              <h1 class="mb-4"><a href="#" class="logo">JD Zapata</a></h1>
               <ul>
                 <li class="active"><a href="{{ url_for('home') }}"><span><small>01</small>Home</span></a></li>
-                <li><a href="{{ url_for('home') }}"><span><small>02</small>About</span></a></li>
-                <li><a href="{{ url_for('home') }}"><span><small>03</small>Services</span></a></li>
-                <li><a href="{{ url_for('home') }}"><span><small>04</small>Portfolio</span></a></li>
-                <li><a href="{{ url_for('home') }}"><span><small>05</small>Contact</span></a></li>
+                <li><a href="https://juanDavidZapata.com/#about-sec"><span><small>02</small>About</span></a></li>
+                <li><a href="https://juanDavidZapata.com/#services-sec"><span><small>03</small>Services</span></a></li>
+                <li><a href="https://juanDavidZapata.com/#portfolio-sec"><span><small>04</small>Portfolio</span></a></li>
+                <li><a href="https://juanDavidZapata.com/#contact-sec"><span><small>05</small>Contact</span></a></li>
               </ul>
             </div>
           </div>
@@ -66,7 +66,7 @@
           <div class="row">
             <div class="col-md-12">
               <div class="mypage-navbar-brand">
-                <a class="mypage-logo" href="{{ url_for('home') }}"><span class="logo-img" style="background-image: url({{ url_for('static', filename='images/me1-1.jpg') }});"></span>JD Zapata</a>
+                <a class="mypage-logo" href="#"><span class="logo-img" style="background-image: url({{ url_for('static', filename='images/me1-1.jpg') }});"></span>JD Zapata</a>
               </div>
               <a href="#" class="js-mypage-nav-toggle mypage-nav-toggle"><i></i></a>
             </div>
@@ -93,7 +93,7 @@
             <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
               <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                 <p><a href="#" class="scroll">I'm from New Jersey</a></p>
-                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">A Web Developer</h1>
+                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">A Web / App Developer</h1>
               </div>
             </div>
           </div>
@@ -118,6 +118,8 @@
                     <li><a href="https://twitter.com/jdavid_z?s=09"><span class="icon-twitter"></span></a></li>
                     <li><a href="https://www.facebook.com/profile.php?id=100003344395190"><span class="icon-facebook"></span></a></li>
                     <li><a href="https://www.instagram.com/invites/contact/?i=3mtszmyc4a9s&utm_content=1nlnut7"><span class="icon-instagram"></span></a></li>
+                    <li><a href="https://github.com/jDavidZapata"><span class="icon-github"></span></a></li>
+                    <li><a href="https://www.linkedin.com/in/juan-zapata-a35a56b4"><span class="icon-linkedin"></span></a></li>
                   </ul>
                   <h5>Contact me here!</h5>
                   <p>Email: <a href="mailto:name@juandavidzapata.com@gmail.com">JuanDavidZapata.com@gmail.com</a></p>
@@ -142,7 +144,7 @@
               <div class="media block-6 services p-3 py-4 d-block text-center">
                 <div class="icon mb-3"><span class="icon-layers"></span></div>
                 <div class="media-body">
-                  <h3 class="heading">UI/UX Design</h3>
+                  <h3 class="heading">UI / UX Design</h3>
                   <h3 class="heading">Mobile App Development</h3>
                   <h3 class="heading">Responsive Design</h3>
                 </div>
@@ -162,9 +164,9 @@
               <div class="media block-6 services p-3 py-4 d-block text-center">
                 <div class="icon mb-3"><span class="icon-code"></span></div>
                 <div class="media-body">
-                  <h3 class="heading">HTML/CSS</h3>
-                  <h3 class="heading">Python</h3>
-                  <h3 class="heading">Javascript</h3>
+                  <h3 class="heading">HTML / CSS</h3>
+                  <h3 class="heading">Python ( Flask / Django )</h3>
+                  <h3 class="heading">Javascript ( Node / React )</h3>
                 </div>
               </div>    
             </div>
@@ -192,12 +194,12 @@
               <h2 class="heading"><a href="#">Your 3D Space</a></h2>
               <h2 class="heading"><a href="#">your3dspace.xyz</a></h2>
               <p>Explore your space in 3D. For Businesses and real estate agents looking for 360 Tours.</p>
-              <!--p><a href="#">View Project</a></p>
+              <!--p><a href="#">Load Project</a></p>
               <p><a href="#">View Code</a></p-->
             </div>
           </div>
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a href="https://jdz.red" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/jdz-1.png') }}); " data-scrollax=" properties: { translateY: '-30%'}">
+            <a href="https://jdz.red" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/jdz-1.png') }}); " data-scrollax=" properties: { translateY: '-30%'}">
               <div class="icon d-flex text-center justify-content-center align-items-center">
                 <span class="icon-search"></span>
               </div>
@@ -206,12 +208,12 @@
               <h4 class="subheading">Comming Soon - Application</h4>
               <h2 class="heading"><a href="https://jdz.red">JDZ.Red</a></h2>
               <p>My Personal Testing Site.</p>
-              <!--p><a href="https://jdz.red">View Project</a></p>
+              <!--p><a href="https://jdz.red" target="_blank">Load Project</a></p>
               <p><a href="https://jdz.red">View Code</a></p-->
             </div>
           </div>
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a href="https://personal-news.herokuapp.com/" class="image d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/NewsApp.png') }}); " data-scrollax=" properties: { translateY: '-30%'}">
+            <a href="https://personal-news.herokuapp.com/" target="_blank" class="image d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/NewsApp.png') }}); " data-scrollax=" properties: { translateY: '-30%'}">
               <div class="icon d-flex text-center justify-content-center align-items-center">
                 <span class="icon-search"></span>
               </div>
@@ -220,12 +222,12 @@
               <h4 class="subheading">Application</h4>
               <h2 class="heading"><a href="https://github.com/jDavidZapata/Personal-News">Personal News</a></h2>
               <p>Create News Channels, add news links and comments.</p>              
-              <p><a href="https://personal-news.herokuapp.com/">View Project</a></p>
+              <p><a href="https://personal-news.herokuapp.com/" target="_blank">Load Project</a></p>
               <p><a href="https://github.com/jDavidZapata/Personal-News">View Code</a></p>
             </div>
           </div>
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a href="https://fcomic-book-anime.herokuapp.com/" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/BookReview.png') }}); " data-scrollax=" properties: { translateY: '-30%'}">
+            <a href="https://fcomic-book-anime.herokuapp.com/" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/BookReview.png') }}); " data-scrollax=" properties: { translateY: '-30%'}">
               <div class="icon d-flex text-center justify-content-center align-items-center">
                 <span class="icon-search"></span>
               </div>
@@ -234,12 +236,12 @@
               <h4 class="subheading">Application</h4>
               <h2 class="heading"><a href="https://github.com/jDavidZapata/fbooks-review">Books Review</a></h2>
               <p>Just add reviews to books.</p>
-              <p><a href="https://fcomic-book-anime.herokuapp.com/">View Project</a></p>
+              <p><a href="https://fcomic-book-anime.herokuapp.com/" target="_blank">Load Project</a></p>
               <p><a href="https://github.com/jDavidZapata/fbooks-review">View Code</a></p>
             </div>
           </div>
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a href="https://heathersbabyname.herokuapp.com/" class="image d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/BabyName.png') }}); " data-scrollax=" properties: { translateY: '-30%'}">
+            <a href="https://heathersbabyname.herokuapp.com/" target="_blank" class="image d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/BabyName.png') }}); " data-scrollax=" properties: { translateY: '-30%'}">
               <div class="icon d-flex text-center justify-content-center align-items-center">
                 <span class="icon-search"></span>
               </div>
@@ -248,12 +250,12 @@
               <h4 class="subheading">Application</h4>
               <h2 class="heading"><a href="https://github.com/jDavidZapata/Babynamesuggestion">Baby Name Suggestions</a></h2>
               <p>Give us your suggestons to Name our Baby Girl.</p>
-              <p><a href="https://heathersbabyname.herokuapp.com/">View Project</a></p>
+              <p><a href="https://heathersbabyname.herokuapp.com/" target="_blank">Load Project</a></p>
               <p><a href="https://github.com/jDavidZapata/Babynamesuggestion">View Code</a></p>
             </div>
           </div>
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a href="https://jdavidzapata.github.io/Landing-page-project/" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/LandingPage.png') }}); " data-scrollax=" properties: { translateY: '-30%'}">
+            <a href="https://jdavidzapata.github.io/Landing-page-project/" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/LandingPage.png') }}); " data-scrollax=" properties: { translateY: '-30%'}">
               <div class="icon d-flex text-center justify-content-center align-items-center">
                 <span class="icon-search"></span>
               </div>
@@ -262,7 +264,7 @@
               <h4 class="subheading">Branding</h4>
               <h2 class="heading"><a href="https://github.com/jDavidZapata">Juan David Zapata</a></h2>
               <p>Logos, Graphics, Websites, 360 Photos, 360Video, Programming and more.</p>
-              <p><a href="https://jdavidzapata.github.io/Landing-page-project/">View Project</a></p>
+              <p><a href="https://jdavidzapata.github.io/Landing-page-project/" target="_blank">Load Project</a></p>
               <p><a href="https://github.com/jDavidZapata/Landing-page-project">View code</a></p>
             </div>
           </div>
@@ -310,6 +312,8 @@
                   <li class="ftco-animate"><a href="https://twitter.com/jdavid_z?s=09"><span class="icon-twitter"></span></a></li>
                   <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100003344395190"><span class="icon-facebook"></span></a></li>
                   <li class="ftco-animate"><a href="https://www.instagram.com/invites/contact/?i=3mtszmyc4a9s&utm_content=1nlnut7"><span class="icon-instagram"></span></a></li>
+                  <li class="ftco-animate"><a href="https://github.com/jDavidZapata"><span class="icon-github"></span></a></li>
+                  <li class="ftco-animate"><a href="https://www.linkedin.com/in/juan-zapata-a35a56b4"><span class="icon-linkedin"></span></a></li>
                 </ul>
               </div>
               <div class="ftco-footer-widget">
@@ -348,10 +352,7 @@
     <script src="{{ url_for('static', filename='js/scrollax.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/bootstrap-datepicker.js') }}"></script>
     <script src="{{ url_for('static', filename='js/jquery.timepicker.min.js') }}"></script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     
-    <script src="{{ url_for('static', filename='js/google-map.js') }}"></script>
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 
   </body>
