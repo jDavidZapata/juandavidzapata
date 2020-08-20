@@ -4,8 +4,6 @@ from flask import Flask, flash, redirect, render_template, request, session, abo
 app = Flask(__name__)
 app.config.from_object(os.environ['APP_SETTINGS'])
 
-print(os.environ['APP_SETTINGS'])
-
 port = int(os.environ.get("PORT", 5000))
 
 @app.route('/')
