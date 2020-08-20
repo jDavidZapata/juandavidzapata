@@ -6,7 +6,8 @@ class Config(object):
     DEBUG = False
     TESTING = False
     CSRF_ENABLED = True
-    SECRET_KEY = b'_3#y5L"F4Q8z\n\xec]/'
+    SECRET_KEY = os.environ.get('SECRET_KEY', b'_3#y5L"F4Q8z\n\xec]/')
+    
 
 
 class ProductionConfig(Config):
