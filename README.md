@@ -1,2 +1,2 @@
-# juandavidzapata
-Professional Website
+# juandavidzapata.com
+Professional Personal Website
